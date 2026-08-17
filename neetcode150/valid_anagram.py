@@ -7,11 +7,4 @@ class Solution(object):
                 if s[i] == t[j]:
                     found = True
             s_state.append(found)
-        
         return all(s_state)
-      
-
-
-
-
-        
